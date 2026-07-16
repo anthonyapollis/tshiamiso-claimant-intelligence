@@ -71,6 +71,20 @@ h1,h2,h3{
 .cover-art figcaption{
   font-size:.76rem;color:var(--ink-muted);padding:8px 12px;border-top:1px solid var(--line);
 }
+.materials{
+  margin:14px 0 18px; display:flex; flex-wrap:wrap; align-items:center; gap:10px;
+  padding:12px 14px; border:1px solid var(--line-strong); background:var(--surface);
+  border-radius:6px;
+}
+.materials strong{font-size:.84rem; color:var(--ink)}
+.materials span{font-size:.82rem; color:var(--ink-muted)}
+.materials a{
+  margin-left:auto; display:inline-flex; align-items:center; justify-content:center;
+  min-height:34px; padding:8px 12px; border-radius:4px;
+  background:var(--data); color:white; font-size:.78rem; font-weight:700;
+  text-decoration:none;
+}
+.materials a:hover{background:var(--accent)}
 .cover .meta{
   display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
   gap:16px 28px; margin-top:10px; padding-top:20px; border-top:1px solid var(--line);
@@ -416,6 +430,11 @@ footer{padding:36px 0 0; font-size:.76rem; color:var(--ink-muted)}
       <img src="assets/tshiamiso_geo_intelligence_cover.png" alt="Geo-intelligence cover showing migration routes, return tracing routes, mining hubs, labour-sending centres and executive KPI tiles">
       <figcaption>Cover visual: claimant intelligence combines KPI monitoring, migration history, return/family tracing and GIS-led outreach planning.</figcaption>
     </figure>
+    <div class="materials" id="downloads">
+      <strong>Project materials</strong>
+      <span>Download the companion Excel workbook with KPI dashboard, compensation calculator, regional model and NNA/k-NN tabs.</span>
+      <a href="reports/Tshiamiso_Trust_Data_Platform_Proposal.xlsx" download>Download Excel workbook</a>
+    </div>
     <dl class="meta">
       <div><dt>Candidate</dt><dd>Anthony Apollis</dd></div>
       <div><dt>Current role</dt><dd>Data Engineer &amp; Analyst, On the Spot</dd></div>
@@ -425,6 +444,7 @@ footer{padding:36px 0 0; font-size:.76rem; color:var(--ink-muted)}
   </div>
 
   <nav class="index">
+    <a href="#downloads">Workbook Download</a>
     <a href="#executive">00 Executive Dashboard</a>
     <a href="#keypoints">00A Key Points &amp; Recommendations</a>
     <a href="#challenge">01 Challenge</a>

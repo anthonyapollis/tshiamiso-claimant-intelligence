@@ -11,5 +11,5 @@ Open `index.html` at the site root.
 - `index.html` - main standalone website
 - `Tshiamiso_Trust_Proposal.html` - same report filename retained for compatibility
 - `assets/` - cover and LinkedIn visual assets
+- `reports/Tshiamiso_Trust_Data_Platform_Proposal.xlsx` - downloadable companion Excel workbook
 - `netlify.toml` - Netlify static-site publish configuration
-
